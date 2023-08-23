@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+tbody{
+    display: grid;
+    grid-template-areas: "Tarjeta-Grafica Monitor" "SSD Teclado-Mecánico" "Procesador Mouse-Inalámbrico" "Memoria-RAM Disco-Duro-Externo" "Fuente-de-Alimentación Auriculares-Gaming";
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 500px 500px 500px 500px 500px;
+}
+
+.Tarjeta-Grafica{
+    grid-area: Tarjeta-Grafica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Monitor{
+    grid-area: Monitor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.SSD{
+    grid-area: SSD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Teclado-Mecánico{
+    grid-area: Teclado-Mecánico;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Procesador{
+    grid-area: Procesador;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Mouse-Inalámbrico{
+    grid-area: Mouse-Inalámbrico;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Memoria-RAM{
+    grid-area: Memoria-RAM;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Disco-Duro-Externo{
+    grid-area: Disco-Duro-Externo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Fuente-de-Alimentación{
+    grid-area: Fuente-de-Alimentación;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Auriculares-Gaming{
+    grid-area: Auriculares-Gaming;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table__titulo{
+    font-size: 40px;
+    order: 0
+}
+.table__img{
+    order: 1
+    }
+.table__precio{
+    order:4
+}
+.table__marca{
+order: 2
+}
+
+.table__descripcion{
+order:3
+}
+.table__button{
+order: 5
+}

@@ -1,0 +1,23 @@
+.caja{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+
+.caja-verde{
+    background-color: green;
+}
+
+.otra-caja-roja, .otra-caja-rosa {
+    width: 100px;
+    height: 100px;
+}
+
+.otra-caja-roja{
+    background-color: red;
+}
+
+.otra-caja-rosa{
+    background-color: pink;
+}
